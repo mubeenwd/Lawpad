@@ -66,38 +66,16 @@
 
   <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 
-
   <!--
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
   <!-- Define app icon for each platform. -->
   <icon src="lawpadicon.png" />
-  <icon src="lawpadicon.png" gap:platform="android" gap:density="ldpi" />
-  <icon src="lawpadicon.png" gap:platform="android" gap:density="mdpi" />
-  <icon src="lawpadicon.png" gap:platform="android"    gap:density="hdpi" />
-  <icon src="lawpadicon.png" gap:platform="android"    gap:density="xhdpi" />
-  <icon src="lawpadicon.png" gap:platform="blackberry" />
-  <icon src="lawpadicon.png" gap:platform="blackberry" gap:state="hover"/>
-  <icon src="lawpadicon.png" gap:platform="ios" width="57" height="57" />
-  <icon src="lawpadicon.png" gap:platform="ios" width="72" height="72" />
-  <icon src="lawpadicon.png" gap:platform="ios" width="114" height="114" />
-  <icon src="lawpadicon.png" gap:platform="ios" width="144" height="144" />
-  <icon src="lawpadicon.png" gap:platform="webos" />
-  <icon src="lawpadicon.png" gap:platform="winphone" />
-  <icon src="lawpadicon.png" gap:platform="winphone"   gap:role="background" />
 
   <!-- Define app splash screen for each platform. -->
-  <gap:splash src="lawpadsplash.png" gap:platform="android" gap:density="ldpi" />
-  <gap:splash src="lawpadsplash.png" gap:platform="android" gap:density="mdpi" />
-  <gap:splash src="lawpadsplash.png" gap:platform="android" gap:density="hdpi" />
-  <gap:splash src="lawpadsplash.png" gap:platform="android" gap:density="xhdpi" />
-  <gap:splash src="lawpadsplash.png" gap:platform="blackberry" />
-  <gap:splash src="lawpadsplash.png" gap:platform="ios" width="320" height="480" />
-  <gap:splash src="lawpadsplash.png" gap:platform="ios" width="640" height="960" />
-  <gap:splash src="lawpadsplash.png" gap:platform="ios" width="768" height="1024" />
-  <gap:splash src="lawpadsplash.png" gap:platform="ios" width="1024" height="768" />
-  <gap:splash src="lawpadsplash.jpg" gap:platform="winphone" />
+  
+  <gap:splash src="lawpadsplash.jpg" />
   
 
   <!--
