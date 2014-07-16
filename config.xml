@@ -70,8 +70,6 @@
   <plugin name="SplashScreen" value="CDVSplashScreen" />
   <plugin name="Storage" value="org.apache.cordova.Storage" />-->
 
-  <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
-
 
   <!--
         <gap:plugin name="Example" />
@@ -94,10 +92,10 @@
   <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
   <!-- Define app splash screen for each platform. -->
-  <gap:splash src="lawpadsplash.png" gap:platform="android" gap:density="ldpi" />
-  <gap:splash src="lawpadsplash.png" gap:platform="android" gap:density="mdpi" />
-  <gap:splash src="lawpadsplash.png" gap:platform="android" gap:density="hdpi" />
-  <gap:splash src="lawpadsplash.png" gap:platform="android" gap:density="xhdpi" />
+  <gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
+  <gap:splash src="res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+  <gap:splash src="res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
+  <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
   <gap:splash src="res/screen/blackberry/screen-225.png" gap:platform="blackberry" />
   <gap:splash src="screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
   <gap:splash src="screen-iphone-portrait.png" gap:platform="ios" width="640" height="960" />
