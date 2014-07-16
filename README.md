@@ -1,4 +1,4 @@
-Lawpad
+Click Judgements
 ======
 
-Lawpad application for law
+India's Highest updated Quality of web based Law E-Journal.
